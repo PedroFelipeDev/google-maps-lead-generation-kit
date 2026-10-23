@@ -76,6 +76,15 @@ Full walkthrough, platform notes and troubleshooting: [SETUP.md](SETUP.md).
 
 ## Use it with Claude Code or any agent
 
+### Codex
+
+Open this repository in Codex. [AGENTS.md](AGENTS.md) supplies project instructions,
+and the [Codex skill](.agents/skills/google-maps-scraper/SKILL.md) is discovered
+automatically. The [.codex](.codex/README.md) folder includes a dedicated entry
+point and usage examples. Ask in plain language, or invoke `$google-maps-scraper`
+for setup, single searches, batches, or job management. The `/scrape` commands
+below belong to Claude Code.
+
 The kit ships a [Claude Code skill](.claude/skills/google-maps-scraper/SKILL.md) that teaches the
 agent the exact job API, the required fields, polling, CSV cleanup and the rate-limit guardrails.
 It also works with Codex, Cursor and any other [Agent Skills](https://agentskills.io)-compatible tool.
